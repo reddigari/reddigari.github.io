@@ -1,0 +1,17 @@
+.MainMenuLink {
+    display: block;
+    color: inherit;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    box-shadow: 0px 1px 3px grey;
+    margin-bottom: 1rem;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.MainMenuLink:hover {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0px 10px 20px grey;
+}
