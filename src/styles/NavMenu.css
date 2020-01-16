@@ -1,0 +1,21 @@
+.NavMenu {
+    display: flex;
+    margin: 0rem 0.25rem;
+}
+.NavMenu a {
+    flex-grow: 1;
+    border-radius: 1rem;
+    color: inherit;
+    transition: color, background-color 0.3s linear;
+}
+
+.NavMenu a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+}
+
+.NavMenu a.active {
+    /*text-decoration: underline;*/
+    border: 1px solid grey;
+}
