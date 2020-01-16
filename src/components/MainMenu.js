@@ -8,9 +8,11 @@ function MainMenu(props) {
     return (
         <Row>
             <MainMenuLink path="about" text="About Me" color="#880000" />
-            <MainMenuLink path="research" text="Research" color="#008800" />
-            <MainMenuLink path="projects" text="Projects" color="#000088" />
-            <MainMenuLink path="resume" text="Resume" color="#880088" />
+            <MainMenuLink path="research" text="Research" color="#dea033" />
+            <MainMenuLink path="projects" text="Projects" color="#008800" />
+            <MainMenuLink path="https://s3.amazonaws.com/reddigari.github.io/Reddigari_CV.pdf"
+                external text="Resume" color="#000088" />
+            <MainMenuLink path="contact" text="Contact" color="#880088" />
         </Row>
     )
 }
