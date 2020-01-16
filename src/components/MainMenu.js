@@ -24,10 +24,14 @@ function MainMenuLink(props) {
 
     return (
         <Col md={6}>
-            <Link className="MainMenuLink" to={props.path} 
-                style={linkStyle}>
-                {props.text}
-            </Link>
+            {props.external ?
+                <a className="MainMenuLink" href={props.path} style={linkStyle}>{props.text}</a>
+                :
+                <Link className="MainMenuLink" to={props.path}
+                    style={linkStyle}>
+                    {props.text}
+                </Link>
+            }
         </Col>
     )
 }
