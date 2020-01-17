@@ -11,8 +11,7 @@
     max-height: 125px;
 }
 
-.Blurb {
-    text-align: center;
+.Sidebar .Blurb {
     margin: 1rem;
 }
 

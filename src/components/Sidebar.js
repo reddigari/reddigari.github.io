@@ -11,14 +11,4 @@ function Sidebar(props) {
     )
 }
 
-
-function Blurb(props) {
-    return (
-        <div className="Blurb">
-            {props.text}
-        </div>
-    )
-}
-
 export default Sidebar;
-export { Blurb };
