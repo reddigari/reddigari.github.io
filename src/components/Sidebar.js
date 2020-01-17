@@ -6,7 +6,7 @@ import '../styles/Sidebar.css';
 
 function Sidebar(props) {
     return (
-        <Col md={2} className="Sidebar d-none d-md-block">
+        <Col md={2} className="Sidebar d-none d-lg-block">
             <img src={props.imagePath} alt="" className="img-fluid" />
             <ContactIcons />
             {props.blurbText ? <Blurb text={props.blurbText} /> : null}
