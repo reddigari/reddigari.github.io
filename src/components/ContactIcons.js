@@ -6,17 +6,20 @@ import '../styles/ContactIcons.css';
 
 
 function ContactIcons(props) {
+    const items = props.data || [];
+    const iconMap = {
+        email: Email,
+        github: GitHub,
+        linkedin: LinkedIn
+    }
+    const contactLinks = items.map(d => {
+        const Icon = iconMap[d.kind];
+        return <a key={d.kind} href={d.value}><Icon /></a>
+    });
+
     return (
         <div className="ContactIcons">
-            <a href="mailto:samirreddigari@gmail.com">
-                <Email />
-            </a>
-            <a href="https://github.com/reddigari">
-                <GitHub />
-            </a>
-            <a href="https://www.linkedin.com/in/samir-reddigari-24ab70b5/">
-                <LinkedIn />
-            </a>
+            { contactLinks }
         </div>
     )
 }
