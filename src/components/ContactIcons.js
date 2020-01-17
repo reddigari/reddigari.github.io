@@ -13,8 +13,9 @@ function ContactIcons(props) {
         linkedin: LinkedIn
     }
     const contactLinks = items.map(d => {
+        const href = d.kind === "email" ? `mailto:${d.value}` : d.value;
         const Icon = iconMap[d.kind];
-        return <a key={d.kind} href={d.value}><Icon /></a>
+        return <a key={d.kind} href={href}><Icon /></a>
     });
 
     return (
