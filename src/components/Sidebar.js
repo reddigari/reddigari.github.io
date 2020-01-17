@@ -1,15 +1,11 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import ContactIcons from './ContactIcons';
 import '../styles/Sidebar.css';
 
 
 function Sidebar(props) {
     return (
         <Col md={2} className="Sidebar d-none d-lg-block">
-            <img src={props.imagePath} alt="" className="img-fluid" />
-            <ContactIcons />
-            {props.blurbText ? <Blurb text={props.blurbText} /> : null}
             {props.children}
         </Col>
     )
@@ -25,3 +21,4 @@ function Blurb(props) {
 }
 
 export default Sidebar;
+export { Blurb };
