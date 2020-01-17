@@ -1,0 +1,10 @@
+.ResearchSection {
+    margin-bottom: 1rem;
+}
+
+.ResearchItem {
+    padding: 0.75rem;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
