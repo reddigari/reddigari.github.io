@@ -6,6 +6,7 @@ import Sidebar from './Sidebar';
 import MainMenu from './MainMenu';
 import AboutMe from './AboutMe';
 import Research from './Research';
+import Projects from './Projects';
 import Contact from './Contact';
 import ContactIcons from './ContactIcons';
 import Blurb from './Blurb';
@@ -47,6 +48,8 @@ class App extends React.Component {
                                 <Switch>
                                     <Route path="/" exact component={MainMenu} />
                                     <Route path="/about" exact component={AboutMe} />
+                                    <Route path="/projects" exact
+                                        component={() => <Projects data={data.projectData} />} />
                                     <Route path="/research" exact
                                         component={() => <Research data={data.researchData} />} />
                                     <Route path="/contact" exact
