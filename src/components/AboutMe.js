@@ -7,7 +7,8 @@ function AboutMe(props) {
     return (
         <Col>
             <p>I am the lead software developer at <a href="http://brainspecmed.com">BrainSpec</a> in Boston, MA.
-               I'm also pursuing a Masters in software engineering from the Harvard Extension School. 
+               I recently graduated from the Harvard Extension School with a master's degree (ALM) in software
+               engineering, and a graduate certificate in data science.
             </p>
 
             <p>Hobby projects I've worked on range from a React app for <a href="https://reddigari.github.io/mbta-tracker">
