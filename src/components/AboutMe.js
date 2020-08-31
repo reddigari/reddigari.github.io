@@ -15,7 +15,7 @@ function AboutMe(props) {
                Boston public transit arrival times</a>, to a <a
                href="https://whatsthatnumber.xyz">serverless digit recognition
                application</a>, to an interactive visualization of
-               <a href="https://reddigari.github.io/HopViz"> hop flavor and aroma characteristics</a>
+               <a href="https://reddigari.github.io/HopViz"> hop flavor and aroma characteristics</a>.
             </p>
 
             <p>Formerly I was a researcher in the <a href="http://psych.nyu.edu/pylkkanen/lab/">NYU
